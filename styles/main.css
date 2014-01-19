@@ -1,12 +1,19 @@
-/* line 1, main.scss */
+
 html {
   height: 100%;
   overflow: hidden;
 }
 
-/* line 5, main.scss */
 body, main {
   margin: 0px;
   padding: 0px;
   height: 100%;
+}
+
+#info{
+    position: absolute;
+    margin: 10px 10px;
+    font-family:Helvetica Neue, Helvetica, Arial;
+    color: #ccc;
+    font-size: .8em;
 }
