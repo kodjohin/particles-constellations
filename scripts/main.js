@@ -1,5 +1,5 @@
 (function () {
-    var PARTICLES_NUM = 1500;
+    var PARTICLES_NUM = 1000;
     var BANG_SIZE = Math.pow( 60, 3 );
 
     var stats;
