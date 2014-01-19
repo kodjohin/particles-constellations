@@ -1,0 +1,12 @@
+/* line 1, main.scss */
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 5, main.scss */
+body, main {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
