@@ -63,7 +63,7 @@
             p.draw();
         }
         update();
-
+        requestAnimFrame(draw);
         stats.end();
     }
 
@@ -121,12 +121,8 @@
             p2.vy += ay;
         }
     }
-
-    function anim(){
-        draw();
-        requestAnimFrame(anim);
-    }
-    anim();
+    
+    draw();
 
     window.onresize = function(){
         cW = window.innerWidth;
