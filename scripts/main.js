@@ -64,6 +64,7 @@
         }
         update();
         requestAnimFrame(draw);
+        
         stats.end();
     }
 
