@@ -133,7 +133,6 @@
         cH = window.innerHeight;
         ctx.canvas.width  = cW;
         ctx.canvas.height = cH;
-        draw();
     }
     function onMouseDown(e) {
         var rect = e.target.getBoundingClientRect();
