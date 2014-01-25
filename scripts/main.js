@@ -41,11 +41,10 @@
         //some velocity for the particles
         this.vx = -1 + Math.random() * 2;
         this.vy = -1 + Math.random() * 2;
-
-        this.draw = function(){
-            ctx.fillStyle = '#ccc';
-            ctx.fillRect(this.x, this.y, this.w, this.h);
-        }
+    }
+    Particle.prototype.draw = function(){
+        ctx.fillStyle = '#ccc';
+        ctx.fillRect(this.x, this.y, this.w, this.h);
     }
 
     // Function to draw everything on the canvas that we'll use when
