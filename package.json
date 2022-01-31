@@ -1,0 +1,11 @@
+{
+	"name": "particles-constellations",
+	"version": "1.0.0",
+	"description": "An experiment on particles using HTML5 canvas",
+	"scripts": {
+		"start": "parcel index.html"
+	},
+	"devDependencies": {
+		"parcel": "^2.2.1"
+	}
+}

@@ -1,19 +1,19 @@
-
 html {
-  height: 100%;
-  overflow: hidden;
+	height: 100%;
+	overflow: hidden;
 }
 
-body, main {
-  margin: 0px;
-  padding: 0px;
-  height: 100%;
+body,
+main {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
 }
 
-#info{
-    position: absolute;
-    margin: 10px 10px;
-    font-family:Helvetica Neue, Helvetica, Arial;
-    color: #ccc;
-    font-size: .8em;
+#info {
+	position: absolute;
+	margin: 10px 10px;
+	font-family: Helvetica Neue, Helvetica, Arial;
+	color: #fff;
+	font-size: 0.8em;
 }

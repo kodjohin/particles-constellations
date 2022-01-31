@@ -1,1 +1,5 @@
 .idea
+dist/
+.parcel-cache/
+.history/
+node_modules/
